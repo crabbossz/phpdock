@@ -1,0 +1,9 @@
+.env
+
+data/*
+log/*
+
+nginx/sites/*.conf
+!nginx/sites/default.conf
+
+mysql/docker-entrypoint-initdb.d/*.sql
